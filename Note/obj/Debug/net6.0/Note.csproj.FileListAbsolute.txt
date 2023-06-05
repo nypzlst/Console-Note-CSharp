@@ -1,0 +1,15 @@
+F:\GitHubWin11\Note\Note\bin\Debug\net6.0\Note.exe
+F:\GitHubWin11\Note\Note\bin\Debug\net6.0\Note.deps.json
+F:\GitHubWin11\Note\Note\bin\Debug\net6.0\Note.runtimeconfig.json
+F:\GitHubWin11\Note\Note\bin\Debug\net6.0\Note.dll
+F:\GitHubWin11\Note\Note\bin\Debug\net6.0\Note.pdb
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.csproj.AssemblyReference.cache
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.AssemblyInfoInputs.cache
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.AssemblyInfo.cs
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.csproj.CoreCompileInputs.cache
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.dll
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\refint\Note.dll
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.pdb
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\Note.genruntimeconfig.cache
+F:\GitHubWin11\Note\Note\obj\Debug\net6.0\ref\Note.dll
