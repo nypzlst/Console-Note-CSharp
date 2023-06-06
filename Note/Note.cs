@@ -9,8 +9,7 @@ namespace Note
         {
             try
             {
-                StreamWriter sw = new StreamWriter($"C:\\Users\\nypozalysta\\Documents\\MyDir\\{DataTimes()}.txt");
-                sw.WriteLine("Hello\n world");
+                StreamWriter sw = new StreamWriter($"C:\\Users\\nypozalysta\\Documents\\MyDir\\{NameFille()}.txt");
                 string note = Console.ReadLine();
                 int count = 0;
                 for(int i = 0; i < note.Length; i++)
@@ -64,11 +63,11 @@ namespace Note
                 Console.WriteLine("The directory error"+e.ToString());
             }
         }
-        public string DataTimes()
+        public string NameFille()
         {
-            DateTime now = DateTime.Now;
-            string data = now.ToString("hhmmssddmmyyyy");
-            return data;
+            Console.WriteLine("Enter name");
+            string name = Console.ReadLine();
+            return name;
         }
         
     }

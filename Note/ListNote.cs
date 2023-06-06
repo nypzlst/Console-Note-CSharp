@@ -2,15 +2,18 @@
 {
    public class ListNote
     {
-        public void GetNote()
+        public int GetNote()
         {
-            string[] filleInDir = Directory.GetFiles(InNote.dirName);
-
+            string[] filleInDir = Directory.GetFiles(InNote.dirName); 
+            int count = 0;
             foreach (string fille in filleInDir)
             {
+                
                 string fileName = Path.GetFileName(fille);
-                Console.WriteLine(fileName);
+                Console.WriteLine($"{count} = {fileName}");
+                count++;
             }
+            return count;
         }
     }
 }
