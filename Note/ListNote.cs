@@ -2,7 +2,7 @@
 {
    public class ListNote
     {
-        public int GetNote()
+        public void GetNote()
         {
             string[] filleInDir = Directory.GetFiles(InNote.dirName); 
             int count = 0;
@@ -13,7 +13,13 @@
                 Console.WriteLine($"{count} = {fileName}");
                 count++;
             }
-            return count;
+        }
+        public void GetAndContinueNote()
+        {
+            ListNote note = new ListNote();
+            note.GetNote();
+            ExitProg exit = new ExitProg();
+            exit.Exit();
         }
     }
 }

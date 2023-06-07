@@ -39,7 +39,8 @@
                 }
                 finally
                 {
-                    Console.WriteLine("Check");
+                    ExitProg exit = new ExitProg();
+                    exit.Exit();
                 }
             }
         }

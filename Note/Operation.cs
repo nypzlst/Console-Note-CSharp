@@ -8,7 +8,7 @@
             ListNote listNote = new ListNote();
             InNote inNote = new InNote();
             RearNote rearNote = new RearNote();
-            actions["List"] = () => listNote.GetNote();
+            actions["List"] = () => listNote.GetAndContinueNote();
             actions["Create"] = () => inNote.DirectoryChecker();
             actions["Open"] = () => rearNote.GetNeedNote();
 
