@@ -8,7 +8,6 @@
             var call = new Runtime(); 
             Console.WriteLine("==================================");
             call.StartConNote();
-           
         }
        public  void StartConNote()
         {

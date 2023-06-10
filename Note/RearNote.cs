@@ -2,11 +2,6 @@
 {
     public class RearNote 
     {
-
-        void Reading()
-        {
-            
-        }
        public void GetNeedNote()
         {
             ListNote listNote = new ListNote();
